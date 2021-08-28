@@ -23,7 +23,7 @@ const App = (props) => {
   //Validação de cep
   const verifyCEP = async () => {
     try{
-      const dataCEP = await axios.get (`http://viacep.com.br/ws/${form.cep}/json/`);
+      const dataCEP = await axios.get (`https://viacep.com.br/ws/${form.cep}/json/`);
         
       setForm ({...form, address : dataCEP.data.logradouro, 
         neighborhood : dataCEP.data.bairro,
