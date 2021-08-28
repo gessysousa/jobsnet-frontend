@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.classInput {   
+    border-color: #00df4d;  
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+
+.classButtom {   
+    background-color : blueviolet; 
+    height: 32px;
+    line-height: 1;
+     
+}
+.classFooter {   
+    background-color : blueviolet;
+    height: 40px;
+    line-height: 2;
+    margin-top: 40px;
+    color: white;
+}
+
+.classContainer{
+max-width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.classRow{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+.mr-auto{
+    margin-left: 20px;
+    font-weight: 40px;
+}
+.mr-2{
+    margin-right: 20px;
+    
+}
+.classNavbar {
+ background-color: blueviolet;
+ margin-bottom: 40px;
+}
+.classFont{
+    font-family:  'Open Sans', sans-serif;
+    color: blueviolet;
+
+}
+
+.classH {
+    margin: 10px;
+    text-align: left;
+    font-weight: 40px;
+    text-decoration: #00df4d;
+
+}
