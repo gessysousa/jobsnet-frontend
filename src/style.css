@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+.classTituloBrand{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+}
 .classInput {   
     border-color: #00df4d;  
     height: 32px;
@@ -15,16 +20,17 @@
 }
 .classFooter {   
     background-color : blueviolet;
-    height: 40px;
-    line-height: 2;
+    height: 70px;
     margin-top: 40px;
     color: white;
+    padding: 10px;
 }
 
 .classContainer{
 max-width: 100%;
 padding: 0px;
 margin: 0px;
+background-color: #D3D3D3;
 }
 
 .classRow{
@@ -43,6 +49,15 @@ margin: 0px;
 .classNavbar {
  background-color: blueviolet;
  margin-bottom: 40px;
+}
+.classNav{
+    border-top: white solid 2px;
+}
+.classNavLink
+{
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
 }
 .classFont{
     font-family:  'Open Sans', sans-serif;
